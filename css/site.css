@@ -1,0 +1,49 @@
+.body{
+    color:#fff
+}
+.header{
+    background-image: url(/background01.jpg);
+    height: 300px;
+    font-size: 1.5em;
+    text-align: center;
+}
+.header img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.main{
+    display flex;
+    text-align: center;
+
+}
+.thongtincanhan{
+    border-style:groove;
+    border-color: bisque;
+    border-LEFT: 10PX;
+    BORDER-WIDTH:10PX;
+
+}
+.ketquahoctap{
+    border-style:groove;
+    border-color: bisque;
+    border-LEFT: 10PX;
+    BORDER-WIDTH:10PX;
+
+}
+.anh{
+    display:grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 5px;
+    margin-left: 70px;
+}
+.anh1{
+    grid-row: 1/4;
+}
+.anh2{
+    grid-column: 2/4;
+}
+.anh5{
+    grid-row: 2/3;
+}
