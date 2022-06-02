@@ -31,6 +31,9 @@
     BORDER-WIDTH:10PX;
 
 }
+.thuvienanh{
+    text-align: center;
+}
 .anh{
     display:grid;
     grid-template-columns: 300px 300px 300px 300px;
